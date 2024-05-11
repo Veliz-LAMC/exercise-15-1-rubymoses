@@ -139,12 +139,12 @@ article img {
 	border: 1px solid black;
 	transition: transform 3s ease;
 }
-article img: hover {
+
+article img:hover {
 	transform: rotate(720deg);
 	transform-origin: 0 0;
 }
 
-/* the styles for the aside */
 aside {
 	width: 215px;
 	float: right;
