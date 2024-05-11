@@ -144,16 +144,14 @@ article img:hover {
 	transform: rotate(720deg);
 	transform-origin: 0 0;
 }
- @keyframes moveImages {
-	0% {
-	 transform: translate (0, 0);
-	}
-	
-	100% {
-	transform: translate (100px, 20px); 
-	}
-} 
-
+@keyframes moveImages {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(100px, 20px);
+  }
+}
 aside {
 	width: 215px;
 	float: right;
@@ -170,9 +168,9 @@ aside h3 {
 	padding-bottom: .25em;
 }
 aside img {
-	padding-bottom: 1em;
-	animation: moveImages 3s 2s 4 alternate;
-	transition: transform 2s ease;
+  padding-bottom: 1em;
+  animation: moveImages 3s 2s 4 alternate;
+  transition: transform 2s ease;
 }
 @keyframes scaleImage {
   0% {
