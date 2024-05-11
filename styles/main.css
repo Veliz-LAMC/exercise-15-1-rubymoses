@@ -145,12 +145,12 @@ article img:hover {
 	transform-origin: 0 0;
 }
 @keyframes moveImages {
-  0% {
-    transform: translate(0, 0);
-  }
-  100% {
-    transform: translate(100px, 20px);
-  }
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(100px, 20px);
+    }
 }
 aside {
 	width: 215px;
