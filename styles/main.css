@@ -137,6 +137,11 @@ article img {
 	float: right;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
+	transition: transform 3s ease;
+}
+article img: hover {
+	transform: rotate(720deg);
+	transform-origin: 0 0;
 }
 
 /* the styles for the aside */
