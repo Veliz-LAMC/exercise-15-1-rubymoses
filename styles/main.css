@@ -166,6 +166,7 @@ aside img {
 }
 aside img: hover {
 	transform: translate (100px, 20px);
+	transition: transform 2s ease;
 }
 
 /* the styles for the footer */
