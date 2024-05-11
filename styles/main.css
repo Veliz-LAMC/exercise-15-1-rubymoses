@@ -164,12 +164,11 @@ aside img {
 	padding-bottom: 1em;
 	transition: transform 2s ease;
 }
-aside img: hover {
-	transform: translate (100px, 20px);
+aside img:hover {
+	transform: translate(100px, 20px);
 	transition: transform 2s ease;
 }
 
-/* the styles for the footer */
 footer {
 	background-color: #931420;
 	clear: both;
